@@ -1,0 +1,12 @@
+const JSX = 
+<div>
+
+<h1> This is the First Heading</h1>
+<p>When rendering multiple elements like this, you can wrap them all in parentheses, but it's not strictly required.</p>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+</div>
