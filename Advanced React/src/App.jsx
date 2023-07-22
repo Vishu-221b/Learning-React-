@@ -1,16 +1,12 @@
-import React from "react";
+import React from 'react';
+import Button from "./button"
 import './style.css'
-import Button from "./button.jsx";
 
-export default function App(){
+
+function App() {
   return (
-
-  <main>
-    <h1> hello</h1>
-    <Button
-    text = "fuck off!!!!!!!!!!!!!!!"
-    />
-</main>
-
-)
+    <main>
+      <Button size="lg" className="green">Log in with Google</Button>
+    </main>
+  )
 }

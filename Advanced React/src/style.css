@@ -1,23 +1,20 @@
-*
-{
+* {
     box-sizing: border-box;
 }
 
-body
-{
-margin:0;
-padding:0;
-background-color:#e9e3ff;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9e3ff;
 }
 
-main
-{
-height:100vh;
-width:100vw;
-display:flex;
-flex-direction:column;
-justify-content: center;
-align-items:center;
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -30,4 +27,19 @@ button {
     padding: 9px 17px;
     border-radius: 6px;
     line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+button.button-small {
+    padding: 7px 11px;
+    font-size: 12px;
+}
+
+button.button-large {
+    padding: 30px 40px;
+}
+
+.green {
+    color: green;
 }
